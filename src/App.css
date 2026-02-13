@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+.sidebar {
+  @apply w-56;
+  @apply h-full;
+  @apply flex;
+  min-height: 100vh;
+  @apply flex-col;
+  @apply justify-between;
+  @apply p-0;
+  @apply mr-1
+}
