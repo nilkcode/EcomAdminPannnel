@@ -2,7 +2,7 @@ import React from 'react'
 
 const Sidebar = () => {
   return (
-    <div className='bg-slate-600 sidebar'>
+    <div className='bg-neutral-600/80 sidebar'>
          <h5 className=''>Home Page Work</h5>
     </div>
   )

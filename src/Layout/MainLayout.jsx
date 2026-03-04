@@ -11,7 +11,7 @@ const MainLayout = ({children}) => {
            <Sidebar/>
            <div className='screen-container grid grid-rows-[auto_1fr_auto] gap-y-1 h-screen grow' >
               <Header/>
-              <main className='bg-neutral-700 flex flex-col h-full overflow-auto'>
+              <main className='bg-neutral-800 flex flex-col h-full overflow-auto'>
                  {children}
               </main>
               <Footer/>

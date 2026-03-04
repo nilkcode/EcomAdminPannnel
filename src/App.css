@@ -8,5 +8,16 @@
   @apply flex-col;
   @apply justify-between;
   @apply p-0;
-  @apply mr-1
+  @apply mr-1;
+  @apply min-w-[12%]
 }
+
+.inputForm {
+  display: flex;
+  gap: 12px;
+  width: 50%;
+  margin: 10px;
+  align-items: center;
+}
+
+.inputForm .inputSearch { border-radius: 4px ; width: 400px;outline: none; @apply border border-neutral-500 p-2; }
